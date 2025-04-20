@@ -1,17 +1,69 @@
-# Python
+# Python bytecode
 __pycache__/
 *.py[cod]
-*.egg-info/
+*.so
+
+# Django stuff:
 *.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+db.sqlite3
+media/
+staticfiles/
 
-# Environments
+# Environment
+.env
+.env.* 
 venv/
-env/
 ENV/
+env/
+.venv/
+.venv/*
 
-# Build
-dist/
+# Distribution / packaging
+.Python
 build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
 
 # VS Code
 .vscode/
+
+# macOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Migrations (optional)
+**/migrations/*.pyc
+**/migrations/*.pyo
+**/migrations/__pycache__/
